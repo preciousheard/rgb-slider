@@ -1,7 +1,7 @@
 var precious, brooke, rickya;
 
 function setup(){
-    createCanvas(600,400);
+    createCanvas(600,400).parent("sketch-holder");
     background(0);
 
     precious = createSlider(0, 255, 125);
