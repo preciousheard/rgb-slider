@@ -4,14 +4,14 @@ function setup(){
     createCanvas(600,400).parent("sketch-holder");
     background(0);
 
-    // precious = createSlider(0, 255, 125);
-    // precious.position(20, 20);
+    precious = createSlider(0, 255, 125);
+    precious.position(20, 20);
     
-    // brooke = createSlider(0, 255, 133);
-    // brooke.position(20, 50);
+    brooke = createSlider(0, 255, 133);
+    brooke.position(20, 50);
     
-    // rickya = createSlider(0, 255, 146);
-    // rickya.position(20, 80);
+    rickya = createSlider(0, 255, 146);
+    rickya.position(20, 80);
 }
 
 function draw(){
